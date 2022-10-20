@@ -1,0 +1,15 @@
+{
+  "Post": {
+    "title": { "This is a Demo": {} },
+    "comments": {
+      "hasMany": "Comment1",
+      "hasMany": "Comment2"
+    }
+  },
+  "Comment": {
+    "body": { "DEMO PURPOSE": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
+}
