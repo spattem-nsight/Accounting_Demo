@@ -1,13 +1,12 @@
 {
   "Post": {
-    "title": { "This is a Demo": {} },
+    "title": { "string": {} },
     "comments": {
-      "hasMany": "Comment1",
-      "hasMany": "Comment2"
+      "hasMany": "Comment"
     }
   },
   "Comment": {
-    "body": { "DEMO PURPOSE": {} },
+    "body": { "string": {} },
     "post": {
       "belongsTo": "Post"
     }
