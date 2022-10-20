@@ -11,8 +11,8 @@
     },
     "demo": {
       "loremWords": {
-         "minLength": 8,
-         "maxLength": 30
+         "minLength": 2,
+         "maxLength": 3
       }
     },
     "body": {
