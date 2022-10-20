@@ -9,6 +9,12 @@
         "maxLength": 20
       }
     },
+    "demo": {
+      "loremWords": {
+         "minLength": 8,
+         "maxLength": 30
+      }
+    },
     "body": {
       "loremParagraphs": {
         "minLength": 10,
