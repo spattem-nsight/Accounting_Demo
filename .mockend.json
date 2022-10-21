@@ -1,40 +1,123 @@
 {
   "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    "Emp ID": {
+      "regexp": "[0-9]{6}"
     },
-    "title": {
+    "Employee Name": {
       "loremWords": {
         "minLength": 5,
-        "maxLength": 20
+        "maxLength": 50
       }
     },
-    "demo": {
-      "loremWords": {
-         "minLength": 2,
-         "maxLength": 3
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
+    "Emp Type": {
       "string": [
-        "one",
-        "two",
-        "three"
+        "Offshore Full Time",
+        "Offshore Contract",
+        "Offshore C2C",
+		"Offshore C2C",
+		"Turkey C2C"
       ]
     },
-    "isDraft": {
-      "boolean": {}
+    "Location": {
+      "string": [
+        "Hyderabad, IND",
+        "Gurgaon, IND",
+        "Istanbul, Turkey",
+		"San Francisco, USA",
+		"Santa Clara, USA"
+      ]
     },
-    "createdAt": {
+    "Manager Name": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 50
+      }
+    },
+    "Week Start Date": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
+      }
+    },
+	"Hour Type": {
+      "string": [
+        "Regular",
+        "Holiday",
+        "Sick Leave",
+		"Earned Leave",
+		"Loss of Pay"
+      ]
+    },
+	"Client Name": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 50
+      }
+    },
+	"Project Name": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 50
+      }
+    },
+	"Project Type": {
+      "string": [
+        "Billable",
+        "Non-Billable"
+      ]
+    },
+	"Task": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 50
+      }
+    },
+	"Submission Date": {
+      "dateTime": {
+        "min": "2022-08-01T00:00:00Z",
+        "max": "2020-09-30T23:59:59Z"
+      }
+    },
+	"SUN": {
+      "regexp": "[0-9]{1}"
+    },
+	"MON": {
+      "regexp": "[0-9]{1}"
+    },
+	"TUE": {
+      "regexp": "[0-9]{1}"
+    },
+	"WED": {
+      "regexp": "[0-9]{1}"
+    },
+	"THU": {
+      "regexp": "[0-9]{1}"
+    },
+	"FRI": {
+      "regexp": "[0-9]{1}"
+    },
+	"SAT": {
+      "regexp": "[0-9]{1}"
+    },
+	"Week Total": {
+      "regexp": "[0-9]{2}"
+    },
+	"Status": {
+      "string": [
+        "Requested",
+        "Approved"
+      ]
+    },
+	"Approval Date": {
+      "dateTime": {
+        "min": "2022-08-01T00:00:00Z",
+        "max": "2020-09-30T23:59:59Z"
+      }
+    },
+	"Approved By": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 50
       }
     }
   }
