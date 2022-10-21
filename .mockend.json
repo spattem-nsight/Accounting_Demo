@@ -23,8 +23,8 @@
         "Hyderabad, IND",
         "Gurgaon, IND",
         "Istanbul, Turkey",
-		"San Francisco, USA",
-		"Santa Clara, USA"
+	"San Francisco, USA",
+	"Santa Clara, USA"
       ]
     },
     "Manager Name": {
@@ -49,15 +49,15 @@
       ]
     },
 	"Client Name": {
-      "loremWords": {
+      "loremParagraphs": {
         "minLength": 5,
         "maxLength": 50
       }
     },
 	"Project Name": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 50
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
       }
     },
 	"Project Type": {
